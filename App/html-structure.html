@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audio player</title>
+	<link rel="stylesheet" type="text/css" href="dist/styles.css">
+	
+</head>
+
+<body>
+
+	<div id="custom-layout-1" class="sa-player" role="application" aria-label="media player">
+		<div class="left-controls">
+			<div>
+				<span class="play-pause play-button"></span>
+				<span class="play-pause pause-button" style="display: none"></span>
+			</div>
+			<span class="time-duration">
+				<span class="sa-current-time"></span> / <span class="sa-duration"></span>
+			</span>
+		</div>
+
+		<div class="middle-controls">
+			<div class="progress-wrap">
+				<div class="sa-progress">
+					<div id="sa-progress-bar" class="sa-progress-bar" style="width: 20%"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="right-controls">
+			<div class="sa-sound">
+				<div class="vol-bar">
+					<div class="vol-bar-value"></div>
+				</div>
+				<span class="mute-unmute mute-button"></span> 
+			   	<span class="mute-unmute unmute-button"></span>
+			</div> 
+			<div class="more">
+				<span class="dots-vertical"></span>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
